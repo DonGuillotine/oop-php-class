@@ -17,5 +17,26 @@ $benz = new Car("Mercedes Benz");
 echo $benz->get_name();
 
 
+class Goodnews{
+    public $name;
+    public $color;
 
+    function __construct($name, $color)
+    {
+        $this->name = $name;
+        $this->color = $color;
+    }
+    function get_name(){
+        return $this->name;
+    }
+    function get_color(){
+        return $this->color;
+    }
+}
+
+echo "<br>";
+$student = new Goodnews("GoodNews RG", "red");
+echo $student->get_name();
+echo "<br>";
+echo $student->get_color();
 ?>
