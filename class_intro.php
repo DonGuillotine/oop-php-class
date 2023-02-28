@@ -48,7 +48,10 @@ class Money{
 
 $pound = new Money();
 $pound->dollars = "Naira";
-var_dump($pound instanceof Fruit);
+
+// instanceof keyword checks if an object belongs to a specific class
+var_dump($pound instanceof Money);
+echo "<br>";
 
 echo $pound->dollars;
 
