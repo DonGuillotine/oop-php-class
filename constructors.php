@@ -35,7 +35,7 @@ class Goodnews{
 }
 
 echo "<br>";
-$student = new Goodnews("GoodNews RG", "red");
+$student = new Goodnews("GoodNewsRG", "red");
 echo $student->get_name();
 echo "<br>";
 echo $student->get_color();
