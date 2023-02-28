@@ -8,6 +8,7 @@ class Oscar{
         $this->name = $name;
     }
 
+    // PHP will automatically call this function at the end of the script.
     function __destruct()
     {
         echo "His name is {$this->name}";
