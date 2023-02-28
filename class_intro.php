@@ -25,14 +25,29 @@ class Fruit {
 $apple = new Fruit();
 $banana = new Fruit();
 $pear = new Fruit();
+$color = new Fruit();
 
 $apple->set_name('Apple');
 $banana->set_name('Banana');
 $pear->set_name('Pear');
+$color->set_color('Yellow');
 
 echo $apple->get_name();
 echo "<br>";
 echo $banana->get_name();
 echo "<br>";
 echo $pear->get_name();
+echo "<br>";
+echo $color->get_color();
+echo "<br>";
+
+// Second way of accessing properties (Outside the class)
+class Money{
+    public $dollars;
+}
+
+$pound = new Money();
+$pound->dollars = "Naira";
+
+echo $pound->dollars;
 ?>
