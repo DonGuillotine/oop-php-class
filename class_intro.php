@@ -48,6 +48,23 @@ class Money{
 
 $pound = new Money();
 $pound->dollars = "Naira";
+var_dump($pound instanceof Fruit);
 
 echo $pound->dollars;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
