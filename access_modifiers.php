@@ -7,6 +7,6 @@
 
     $rice = new Food();
     $rice->name = "Jollof Rice";
-    $rice->color = 'Red';
-    $rice->weight = '50';
+    $rice->color = "Red";
+    $rice->weight = "50";
 ?>
