@@ -35,11 +35,11 @@
     echo "<br>"
 
     // The Final Keyword
-    final class Laptop {
-        // some code
-    }
+    // final class Laptop {
+    //     // some code
+    // }
 
-    class Phone extends Laptop{
-        // some code
-    }
+    // class Phone extends Laptop{
+    //     // some code
+    // }
 ?>
