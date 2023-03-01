@@ -22,4 +22,30 @@
     $orange = new Orange("Orange", "red");
     $orange->message();
     $orange->introduction();
+
+
+    class Kodex {
+        public $name;
+        public $location;
+
+        public function __construct($name, $location){
+            $this->name = $name;
+            $this->location = $location;
+        }
+
+        protected function location(){
+            echo "{$this->name} is located at {$this->location}";
+        }
+    }
+
+    class Nawe extends Kodex{
+        public function message(){
+            echo "We work with Kodex";
+            $this->location();
+        }
+    }
+
+    // Try to call all three methods from outside the classes
+    $nawe = new Nawe("Kodex", "Awka");
+    $nawe->message();
 ?>
