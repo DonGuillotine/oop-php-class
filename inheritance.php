@@ -41,6 +41,7 @@
     class Nawe extends Kodex{
         public function message(){
             echo "We work with Kodex";
+            // You can call a protected method from within a derived or child class
             $this->location();
         }
     }
