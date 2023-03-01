@@ -32,4 +32,14 @@
 
     $nawe = new Nawe("Kodex", "Awka", 90);
     $nawe->location();
+    echo "<br>"
+
+    // The Final Keyword
+    final class Laptop {
+        // some code
+    }
+
+    class Phone extends Laptop{
+        // some code
+    }
 ?>
