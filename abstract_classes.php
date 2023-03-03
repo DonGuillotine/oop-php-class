@@ -5,6 +5,9 @@
         {
             $this->name = $name;
         }
+        // An abstract method is a method that is declared, but not implemented in the code.
+        // the type and number of required arguments must be the same.
+        // the child class may have optional arguments in addition
         abstract public function intro() : string;
     }
 
