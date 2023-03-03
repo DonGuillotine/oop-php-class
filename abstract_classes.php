@@ -67,4 +67,6 @@
     echo $class->prefixName("Donald");
     echo "<br>";
     echo $class->prefixName("Oscar");
+    echo "<br>";
+    echo $class->prefixName("RG");
 ?>
