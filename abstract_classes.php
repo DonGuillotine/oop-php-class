@@ -41,4 +41,30 @@
     $toyota = new Toyota("Toyota");
     echo $toyota->intro();
     echo "<br>";
+
+
+    abstract class ParentClass {
+        // Abstract method with an argument
+        abstract protected function prefixName($name);
+    }
+
+    class ChildClass extends ParentClass {
+        public function prefixName($name){
+            if($name == "Donald"){
+                $prefix = "Mr.";
+            }
+            else if($name == "Oscar"){
+                $prefix = "Dr.";
+            }
+            else{
+                $prefix = "";
+            }
+            return "{$prefix} {$name}";
+        }
+    }
+
+    $class = new ChildClass;
+    echo $class->prefixName("Donald");
+    echo "<br>";
+    echo $class->prefixName("Oscar");
 ?>
