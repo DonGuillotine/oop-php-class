@@ -35,4 +35,25 @@
             YourDaysAreNumbered::good_news();
         }
     }
+
+    $it_is_well = new Itiswell();
+    $it_is_well->message();
+
+
+    class domain{
+        protected static function getWebsiteName(){
+            return "w3schools.com";
+        }
+    }
+
+    class domainW3 extends domain{
+        public $websiteName;
+        public function __construct()
+        {
+            $this->websiteName = parent::getWebsiteName();
+        }
+    }
+
+    $domainW3 = new domainW3();
+    echo $domainW3->websiteName;
 ?>
