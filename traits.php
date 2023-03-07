@@ -12,4 +12,11 @@
 
     $object = new Welcome();
     $object->message_first();
+
+    // Using Multiple Traits
+    trait quote_one{
+        public function message_first(){
+            echo "Never give up on PHP";
+        }
+    }
 ?>
