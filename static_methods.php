@@ -31,6 +31,7 @@
 
     class Itiswell{
         public function message(){
+            // Static methods can also be called from methods in other classes, must be public
             YourDaysAreNumbered::good_news();
         }
     }
