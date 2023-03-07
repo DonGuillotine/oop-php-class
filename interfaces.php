@@ -7,28 +7,28 @@
     class Cat implements Animal{
         public function makeSound()
         {
-            echo "Meow";
+            echo " Meow ";
         }
     }
 
     class Dog implements Animal {
         public function makeSound()
         {
-            echo "Bark";
+            echo " Bark ";
         }
     }
 
     class Cow implements Animal{
         public function makeSound()
         {
-            echo "Moo";
+            echo " Moo ";
         }
     }
 
-    $animal = new Cat();
+    $cat = new Cat();
     $dog = new Dog();
     $cow = new Cow();
-    $animals = array($cat, $dog, $mouse);
+    $animals = array($cat, $dog, $cow);
 
     foreach($animals as $one_animal){
         $one_animal->makeSound();
