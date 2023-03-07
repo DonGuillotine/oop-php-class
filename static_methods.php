@@ -50,6 +50,7 @@
         public $websiteName;
         public function __construct()
         {
+            // To call a static method from a child class, use the parent keyword inside the child class.
             $this->websiteName = parent::getWebsiteName();
         }
     }
