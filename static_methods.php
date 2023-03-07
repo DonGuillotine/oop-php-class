@@ -5,6 +5,7 @@
         }
     }
 
+    // Class instanciation not required
     // Call static method
     Wakanda::welcome();
 ?>
