@@ -22,4 +22,16 @@
     }
 
     new Donald();
+
+    class YourDaysAreNumbered{
+        public static function good_news(){
+            echo "Your days are numbered";
+        }
+    }
+
+    class Itiswell{
+        public function message(){
+            YourDaysAreNumbered::good_news();
+        }
+    }
 ?>
