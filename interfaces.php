@@ -11,6 +11,26 @@
         }
     }
 
+    class Dog implements Animal {
+        public function makeSound()
+        {
+            echo "Bark";
+        }
+    }
+
+    class Cow implements Animal{
+        public function makeSound()
+        {
+            echo "Moo";
+        }
+    }
+
     $animal = new Cat();
-    $animal->makeSound();
+    $dog = new Dog();
+    $cow = new Cow();
+    $animals = array($cat, $dog, $mouse);
+
+    foreach($animals as $one_animal){
+        $one_animal->makeSound();
+    }
 ?>
