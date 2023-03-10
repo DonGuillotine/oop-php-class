@@ -10,7 +10,7 @@
     $array_students = ["Spunky", "Oscar", "GoodNews"];
     printIterable($array_students);
 
-
+// The iterable keyword can be used as the return type of a function
     function getIterable():iterable{
         return ["Apple", "Banana", "Kiwi"];
     }
