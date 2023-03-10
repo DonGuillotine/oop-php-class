@@ -9,4 +9,14 @@
     // An iterable is any value which can be looped through with a foreach() loop.
     $array_students = ["Spunky", "Oscar", "GoodNews"];
     printIterable($array_students);
+
+
+    function getIterable():iterable{
+        return ["Apple", "Banana", "Kiwi"];
+    }
+
+    $myIterable = getIterable();
+    foreach($myIterable as $item){
+        echo $item;
+    }
 ?>
