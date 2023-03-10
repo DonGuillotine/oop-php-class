@@ -30,4 +30,11 @@ class Naira extends Money{
         return parent::$value;
     }
 }
+
+echo "<br>";
+echo Money::$value;
+
+$naira = new Naira();
+echo "<br>";
+echo $naira->useless();
 ?>
