@@ -1,5 +1,5 @@
 <?php
-include "namespace.php";
+include "namespaces.php";
 
 
 $table = new Html\Table();
