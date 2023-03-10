@@ -1,12 +1,16 @@
 <?php
 include "namespaces.php";
 
+use Html as H;
 
-$table = new Html\Table();
+use Html\Table as T;
+
+
+$table = new T();
 $table->title = "My tablez";
 $table->numRows = 5;
 
-$row = new Html\Row();
+$row = new H\Row();
 $row->numCells = 3;
 ?>
 
